@@ -1,0 +1,242 @@
+
+html {
+  font-family: Nexa;
+}
+
+body {
+  min-height: 800px;
+  padding-top: 70px;
+  background-color: #ffffff;
+  font-family: Nexa;
+}
+
+.footer{
+  background-color: #002a5c;
+}
+
+.footer-left{
+  position: relative;
+  left: 4px;
+}
+
+.footer-right{
+  position: relative;
+  text-align: right;
+  color: #ffffff;
+}
+
+.table{
+  color: #002a5c;
+}
+
+.table-striped > tbody > tr:nth-child(odd) {
+  background-color: #f3f4f8;
+}
+
+.table-striped > tbody > tr:nth-child(even) {
+  background-color: #ccd5de;
+}
+
+.panel-no-border{
+  border: 0;
+}
+
+.floorplan{
+  position: relative;
+  padding: 20px;
+}
+
+.floorplan-img{
+  border: 2px;
+  border-style: solid;
+  border-color: #002a5c;
+}
+
+.floorplan-title{
+  text-align: center;
+  color: #002a5c;
+  font-weight: bold;
+  position: relative;
+}
+
+.floorplan-title-other{
+  text-align: center;
+  color: #002a5c;
+  font-weight: bold;
+  position: relative;
+  font-size: 25px;
+}
+
+.table-text-size{
+  font-size: 25px;
+  text-align: center;
+}
+
+.table-text-aling{
+  text-align: center;
+}
+
+.floorplan-title-special{
+  text-align: center;
+  color: #002a5c;
+  position: relative;
+  font-size: 70px;
+}
+
+.see-all{
+  text-align: center;
+  color: #5e0003;
+  font-weight: bold;
+}
+
+.large-text{
+  text-align: justyfied;
+  color: #002a5c;
+  position: relative;
+  font-size: 20px;
+}
+  
+.panel-no-border{
+  border: 0;
+}
+
+.floorplan{
+  position: relative;
+  padding: 20px;
+}
+
+.floorplan-img{
+  border: 2px;
+  border-style: solid;
+  border-color: #002a5c;
+}
+
+.floorplan-title{
+  text-align: center;
+  color: #002a5c;
+  font-weight: bold;
+  position: relative;
+}
+
+.floorplan-title-other{
+  text-align: center;
+  color: #002a5c;
+  font-weight: bold;
+  position: relative;
+  font-size: 25px;
+}
+
+.footer-text{
+  text-align: right;
+  color: #ffffff;
+  font-weight: bold;
+  position: relative;
+}
+
+.center{
+  width : 100px;
+  height : 54px;
+  display : table-cell;
+  text-align: right;
+  vertical-align : middle;
+  color: #ffffff;
+  font-weight: bold;
+  position: relative;
+}
+
+.table-text-center th{
+  text-align: center;
+}
+
+.table-text-center td {
+  text-align: left;
+}
+
+table {
+  table-layout: fixed;
+  word-wrap: break-word;
+  width: 100%;
+  text-align: left;
+}
+
+hr{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-top: 1px solid #000000;
+}
+
+.div-center{
+  vertical-align : middle;
+  position: relative;
+}
+
+.strike {
+  display: block;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.strike > span {
+  position: relative;
+  display: inline-block;
+}
+
+.strike > span:before,
+.strike > span:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 9999px;
+	border-top: 4px double black;
+}
+
+.strike > span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+
+.strike > span:after {
+  left: 100%;
+  margin-left: 15px;
+}
+
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  background-color: #002a5c;
+  color: #ffffff;
+  text-align: center;
+  font-size: 18px;
+  line-height: 0;
+  margin-bottom: 0;
+
+}
+
+.navbar-default .navbar-nav > li {
+  text-align: center;
+  vertical-align : middle;
+  position: relative;
+  padding-top: 30px;
+}
+
+#my-own-brand {
+  margin-left: 30px;
+  margin-right: 30px;
+  font-size: 40px;
+  background-color: #002a5c;
+  color: #ffffff;
+  text-align: center;
+  vertical-align : middle;
+  position: relative;
+}
+
+.navbar-nav.nav-justified > li{
+  float:none;
+  width: auto;
+  text-align: center;
+}
+
+.navbar>.container {
+  text-align: center;
+}
